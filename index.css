@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading{
+    color: purple;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.btn button{
+    background-color: purple;
+    border: 4px solid purple;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: transparent;
+    border: 4px solid purple;
+    color: purple;
+}

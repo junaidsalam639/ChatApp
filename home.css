@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainScreen{
+    border: 1px solid grey ;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 20px;
+    width: 900px;
+}
+.left{
+    width: 30%;
+    border-right: 1px solid grey;
+    padding: 20px;
+}
+.myDeatailBox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.myDeatailBox div{
+    display: flex;
+    align-items: center;
+}
+ .img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.myInfo{
+    font-size: 18px;
+    font-weight: 600;
+    color: purple;
+}
+.right{
+    width: 70%;
+    position: relative;
+}
+#users{
+    overflow: auto;
+    
+    height: 400px;
+    overflow: auto;
+}
+#users .items{
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 5px 20px 5px 10px;
+    border-top-right-radius: 20px;
+}
+.head .img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.head .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.head .name{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.head #close{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.bottom{
+    width: 100%;
+    background-color: white;
+    
+}
+#messages{
+    
+    height: 400px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.logout button
+{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: purple;
+}
+.bottom input{
+    
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 90%;
+    border: none;
+    z-index: 1;
+    outline: none;
+    margin: 10px;
+    border-bottom: 1px solid purple;
+    padding: 10px;
+}
+#leftMess{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 97, 255);
+    color: white;
+    clear: both;
+}
+
+#rightMess{
+    clear: both;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    background-color: purple;
+    color: white;
+}
